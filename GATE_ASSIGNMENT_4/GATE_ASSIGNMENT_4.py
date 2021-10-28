@@ -37,7 +37,7 @@ ax.axvspan(line1, line2, alpha=.5, color='blue')
 patches = mpatches.Patch(color="blue", label="ROC")
 plt.legend(handles=[patches,label,zero,pole], loc = 'upper right')
 plt.xlabel("Re{s}")
-plt.ylabel("jW")
+plt.ylabel("iW")
 # function to show the plot
 plt.grid()
 plt.show()
