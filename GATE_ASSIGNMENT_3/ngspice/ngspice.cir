@@ -1,0 +1,11 @@
+Asid
+C1 0 1 0.02
+C2 1 2 0.02
+R1 2 3 150
+L1 3 4 50
+V 4 0 dc 0 PULSE (0 2 1u 1u 1u 1 1)
+.control
+tran 0.001 10 UIC
+run
+plot v(1) v(4)
+.end
